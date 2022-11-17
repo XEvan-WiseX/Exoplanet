@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'moonlight';
+    src: url('../assets/fonts/moon_light-webfont.woff2') format('woff2'),
+    url('../assets/fonts/moon_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'avenir_lt_std45_book';
+    src: url('../assets/fonts/avenirltstd-book-webfont.woff2') format('woff2'),
+    url('../assets/fonts/avenirltstd-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    font-family: "moonlight", serif;
+}
+h2 {
+    font-family: "moonlight", serif;
+}
+h3 {
+    font-family: "moonlight", serif;
+}
+.dudley {
+    float: right;
+    margin-right: 3%;
+}
+ .background {
+     width: 98vw;
+     background-color: black;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+}
+.main-content {
+    font-family: avenir_lt_std45_book, serif;
+    width: 70%;
+
+
+    background-color: #222;
+    color: white;
+    padding: 2vw;
+
+}
+
+.meridian {
+    border-radius: 50%;
+    float: right;
+    margin: 2%;
+    max-width: 42.5%;
+}
+
+.occupied {
+    width: 100%;
+}
+.mimas {
+    border-bottom: gold dashed 1px;
+    color: white;
+    text-decoration: none;
+}
+.james-web {
+    border-bottom: gold dashed 1px;
+    color: white;
+    text-decoration: none;
+}
+
+/* input form styling */
+
+
+.form-container {
+    color: white;
+    width: fit-content;
+    border: 2px gold solid;
+}
+
+/* Print Properties */
+
+@media print {
+    .main-content {
+        width: 100vw;
+        background-color: white;
+        color: black;
+        font-size: 90%
+    }
+    .form-container {
+        visibility: hidden;
+    }
+    .background {
+        background-color: white;
+    }
+}
